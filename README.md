@@ -37,7 +37,6 @@ The app integrates with TMDB (The Movie Database) API to fetch movie data, inclu
 5. Build and run the project on an emulator or physical device.
 
 ## Screenshots
-### Screenshots
 
 <div align="center">
     <table>
