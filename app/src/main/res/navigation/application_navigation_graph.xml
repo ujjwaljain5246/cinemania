@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/application_navigation_graph"
+    app:startDestination="@id/main_Fragment">
+
+    <fragment
+        android:id="@+id/main_Fragment"
+        android:name="com.example.timepass.Fragments.MainFragment"
+        android:label="Welcome to Cinemania buddy"
+        tools:layout="@layout/main_fragment_layout" >
+        <action
+            android:id="@+id/action_main_Fragment_to_upcoming_Movies_Fragment"
+            app:destination="@id/upcoming_Movies_Fragment" />
+        <action
+            android:id="@+id/action_main_Fragment_to_new_Released_Movie_Fragment"
+            app:destination="@id/new_Released_Movie_Fragment" />
+        <action
+            android:id="@+id/action_main_Fragment_to_top_Rated_Movies_Fragment"
+            app:destination="@id/top_Rated_Movies_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/upcoming_Movies_Fragment"
+        android:name="com.example.timepass.Fragments.UpcomingMoviesFragment"
+        android:label="Keep your popcorn ready" >
+        <action
+            android:id="@+id/action_upcoming_Movies_Fragment_to_main_Fragment"
+            app:destination="@id/main_Fragment" />
+        <action
+            android:id="@+id/action_upcoming_Movies_Fragment_to_details_Fragment"
+            app:destination="@id/details_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/details_Fragment"
+        android:name="com.example.timepass.Fragments.DetailsFragment"
+        android:label="Oh! you found this interesting"
+        tools:layout="@layout/details_fragment_layout" >
+        <action
+            android:id="@+id/action_details_Fragment_to_upcoming_Movies_Fragment"
+            app:destination="@id/upcoming_Movies_Fragment" />
+        <argument
+            android:name="CurrentMovie"
+            app:argType="com.example.timepass.DataClasses.MovieResult" />
+        <action
+            android:id="@+id/action_details_Fragment_to_new_Released_Movie_Fragment"
+            app:destination="@id/new_Released_Movie_Fragment" />
+        <action
+            android:id="@+id/action_details_Fragment_to_trailer_Player_Fragment"
+            app:destination="@id/trailer_Player_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/new_Released_Movie_Fragment"
+        android:name="com.example.timepass.Fragments.NewReleasedMovieFragment"
+        android:label="Book your ticket now">
+        <action
+            android:id="@+id/action_new_Released_Movie_Fragment_to_details_Fragment"
+            app:destination="@id/details_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/trailer_Player_Fragment"
+        android:name="com.example.timepass.Fragments.TrailerPlayerFragment"
+        android:label="It will be easy to decide now"
+        tools:layout="@layout/trailer_player_fragment_layout" >
+        <action
+            android:id="@+id/action_trailer_Player_Fragment_to_details_Fragment"
+            app:destination="@id/details_Fragment" />
+        <argument
+            android:name="MovieDetails"
+            app:argType="com.example.timepass.DataClasses.MovieResult" />
+    </fragment>
+    <fragment
+        android:id="@+id/top_Rated_Movies_Fragment"
+        android:name="com.example.timepass.Fragments.TopRatedMoviesFragment"
+        android:label="Always on top of list">
+        <action
+            android:id="@+id/action_top_Rated_Movies_Fragment_to_details_Fragment"
+            app:destination="@id/details_Fragment" />
+    </fragment>
+</navigation>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Cinemania</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="response_body_is_null">Response body is null</string>
+    <string name="TAG_ourTrailer">ourTrailer</string>
+    <string name="top_rated_movies_are">Top rated movies are:</string>
+    <string name="TAG_TOP_RATED_MOVIES_FRAGMENT">TopRatedMoviesFragment</string>
+    <string name="TAG_UPCOMING_MOVIES_FRAGMENT">UpcomingMoviesFragment</string>
+    <string name="TAG_NEW_RELEASED_MOVIES_FRAGMENT">NewReleasedMoviesFragment</string>
+    <string name="FAILED_RESPONSE">Failed to fetch movies</string>
+    <string name="Trailer">Trailer</string>
+    <string name="myMessage">Know it, \n Before you watch it.</string>
+    <string name="adult">Adult</string>
+    <string name="under_18">Under 18</string>
+    <string name="upcoming_movies_are">Upcoming movies are:</string>
+    <string name="know_more_about_the_movie">Know more about the movie:</string>
+    <string name="movie_poster">Movie Poster</string>
+    <string name="watch_trailer">Watch Trailer</string>
+    <string name="release_date">Release Date</string>
+    <string name="movie_description">Movie Description</string>
+    <string name="new_released_movies_are">New released movies are:</string>
+    <string name="get_upcoming_movies">Get Upcoming Movies</string>
+    <string name="get_new_released_movies">Get New Released Movies</string>
+    <string name="get_top_rated_movies">Get Top Rated Movies</string>
+    <string name="movie_name">Movie Name</string>
+
+
+</resources>
