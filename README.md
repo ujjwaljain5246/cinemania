@@ -35,5 +35,15 @@ The app integrates with TMDB (The Movie Database) API to fetch movie data, inclu
 3. Sync the project with Gradle files.
 4. Add you TMDB API Key in Utils class.
 5. Build and run the project on an emulator or physical device.
+
+## Screenshots
+![Splash screen](https://github.com/user-attachments/assets/66576da7-700a-47ba-ac40-9c49f8759309)
+![Main Fragment](https://github.com/user-attachments/assets/08b654e6-a7a7-4697-b19c-5d98aeaffff3)
+![Upcoming Movies Fragment](https://github.com/user-attachments/assets/f1d2f829-f26d-4ebd-b78e-05777341f61f)
+![New Released Movies Fragment](https://github.com/user-attachments/assets/85bfce36-0312-43d7-a1a1-a89dfa0ae8e5)
+![Top Rated Movies Fragment](https://github.com/user-attachments/assets/ba4d91a9-fa35-4692-b15a-022041529322)
+![Details Fragment](https://github.com/user-attachments/assets/d3efded1-13d0-4e2b-b17f-0dd36252b8f8)
+![Trailer Fragment](https://github.com/user-attachments/assets/0a01c49c-c215-4afe-b284-3729aed501c0)
+
    
 
