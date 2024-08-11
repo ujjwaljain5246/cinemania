@@ -37,13 +37,46 @@ The app integrates with TMDB (The Movie Database) API to fetch movie data, inclu
 5. Build and run the project on an emulator or physical device.
 
 ## Screenshots
-![Splash screen](https://github.com/user-attachments/assets/66576da7-700a-47ba-ac40-9c49f8759309)
-![Main Fragment](https://github.com/user-attachments/assets/08b654e6-a7a7-4697-b19c-5d98aeaffff3)
-![Upcoming Movies Fragment](https://github.com/user-attachments/assets/f1d2f829-f26d-4ebd-b78e-05777341f61f)
-![New Released Movies Fragment](https://github.com/user-attachments/assets/85bfce36-0312-43d7-a1a1-a89dfa0ae8e5)
-![Top Rated Movies Fragment](https://github.com/user-attachments/assets/ba4d91a9-fa35-4692-b15a-022041529322)
-![Details Fragment](https://github.com/user-attachments/assets/d3efded1-13d0-4e2b-b17f-0dd36252b8f8)
-![Trailer Fragment](https://github.com/user-attachments/assets/0a01c49c-c215-4afe-b284-3729aed501c0)
+### Screenshots
+
+<div align="center">
+    <table>
+        <tr>
+            <td align="center">
+                <img src="https://github.com/user-attachments/assets/66576da7-700a-47ba-ac40-9c49f8759309" alt="Splash Screen" width="200"/>
+                <p><em>Splash Screen</em></p>
+            </td>
+            <td align="center">
+                <img src="https://github.com/user-attachments/assets/08b654e6-a7a7-4697-b19c-5d98aeaffff3" alt="Main Fragment" width="200"/>
+                <p><em>Main Fragment</em></p>
+            </td>
+            <td align="center">
+                <img src="https://github.com/user-attachments/assets/f1d2f829-f26d-4ebd-b78e-05777341f61f" alt="Upcoming Movies Fragment" width="200"/>
+                <p><em>Upcoming Movies Fragment</em></p>
+            </td>
+        </tr>
+    </table>
+   <table>
+        <tr>
+            <td align="center">
+                <img src="https://github.com/user-attachments/assets/85bfce36-0312-43d7-a1a1-a89dfa0ae8e5" alt="New Released Movies Fragment" width="200"/>
+                <p><em>New Released Movies Fragment</em></p>
+            </td>
+            <td align="center">
+                <img src="https://github.com/user-attachments/assets/ba4d91a9-fa35-4692-b15a-022041529322" alt="Top Rated Movies Fragment" width="200"/>
+                <p><em>Top Rated Movies Fragment</em></p>
+            </td>
+            <td align="center">
+                <img src="https://github.com/user-attachments/assets/d3efded1-13d0-4e2b-b17f-0dd36252b8f8" alt="Details Fragment" width="200"/>
+                <p><em>Details Fragment</em></p>
+            </td>
+           <td align="center">
+                <img src="https://github.com/user-attachments/assets/0a01c49c-c215-4afe-b284-3729aed501c0" alt="Trailer Fragment" width="200"/>
+                <p><em>Trailer Fragment</em></p>
+            </td>
+        </tr>
+    </table>
+</div>
 
    
 
